@@ -1,0 +1,21 @@
+@import "./base.css";
+
+body {
+  background-color: var(--harry-potter-background-color) !important;
+}
+
+.text {
+  color: var(--harry-potter-text-color) !important;
+}
+
+.form-control {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  color: var(--harry-potter-text-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--harry-potter-accent-color) !important;
+  border: 1px solid var(--harry-potter-accent-color) !important;
+}

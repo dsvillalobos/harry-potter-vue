@@ -1,0 +1,23 @@
+:root {
+  --harry-potter-text-color: #0e1216;
+  --harry-potter-background-color: #f6f7f9;
+  --harry-potter-primary-color: #617c94;
+  --harry-potter-secondary-color: #b0acc9;
+  --harry-potter-accent-color: #9b8eb4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --harry-potter-text-color: #e9edf1;
+    --harry-potter-background-color: #060709;
+    --harry-potter-primary-color: #617c94;
+    --harry-potter-secondary-color: #3a3653;
+    --harry-potter-accent-color: #594b71;
+  }
+}
+
+body {
+  overflow-y: scroll !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
