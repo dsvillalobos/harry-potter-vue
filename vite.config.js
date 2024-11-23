@@ -14,6 +14,7 @@ export default defineConfig({
       manifest: {
         name: "Harry Potter",
         short_name: "Harry Potter",
+        scope: "/",
         description: "Harry Potter Guide",
         theme_color: "#617c94",
         background_color: "#617c94",
