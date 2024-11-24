@@ -18,7 +18,7 @@ export default defineConfig({
         description: "Harry Potter Guide",
         theme_color: "#617c94",
         background_color: "#617c94",
-        display: "standalone",
+        display: "fullscreen",
         lang: "en-US",
         icons: [
           {
